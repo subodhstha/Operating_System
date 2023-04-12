@@ -1,7 +1,7 @@
 //creating of single process & display their id
 #include<stdio.h>
 #include<unistd.h>//contains fork prototype
- int main(void)
+int main(void)
 {
 	printf("Hello World\n");
 	fork();

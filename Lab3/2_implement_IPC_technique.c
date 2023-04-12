@@ -15,6 +15,7 @@ int main()
 	pthread_join(thid1, NULL);
 	pthread_join(thid2, NULL);
 	return 0;
+	printf("\n");
 }
 
 void *thread1f(void *arg)
