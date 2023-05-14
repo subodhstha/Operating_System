@@ -1,11 +1,11 @@
-//similating First Come First Serve(FCFS) FIFO scheduling in c.
+//simulating First Come First Serve(FCFS) FIFO scheduling in c.
 #include<stdio.h>
 int main()
 {
 	int n, bt[20], wt[20], tat[20], avwt = 0, avtat = 0, i, j;
 	printf("Enter total number of processes(maximum 20) ");
 	scanf("%d", &n);
-	scanf("Enter Process Burst Time \n");
+	printf("Enter Process Burst Time \n");
 	for(i = 0; i < n; i++)
 	{
 		printf("P[%d] ",i+1);

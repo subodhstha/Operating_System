@@ -24,7 +24,9 @@ void *thread1f(void *arg)
 	while(a++ < 20)
 	{
 		while(turn != 1);
-		fputc('b',stderr);
+		{
+			fputc('b',stderr);
+		}
 		turn = 0;
 	}
 }
@@ -35,7 +37,9 @@ void *thread2f(void *arg)
 	while(b++ < 20)
 	{
 		while(turn != 0);
-		fputc('a', stderr);
+		{
+			fputc('a', stderr);
+		}
 		turn = 1;
 	}
 }

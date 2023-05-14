@@ -105,6 +105,6 @@ int main()
 	}
 	else
 	{
-		printf("No Deadlock possilbe\n");
+		printf("No Deadlock possible\n");
 	}
 }

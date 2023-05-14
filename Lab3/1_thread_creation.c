@@ -35,7 +35,7 @@ int main(void)
 		{
 			printf("Thread created successfully\n");
 		}
-	i++;
+		i++;
 	}
 	sleep(5);
 }
