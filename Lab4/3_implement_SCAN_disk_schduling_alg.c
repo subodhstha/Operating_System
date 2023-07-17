@@ -20,7 +20,7 @@ int main(){
     {
         for ( j = 0; i < n-1; i++)
         {
-            if (RQ[j] > RQ[j + 1])
+            if(RQ[j] > RQ[j + 1])
             {
                 int temp;
                 temp = RQ[j];
